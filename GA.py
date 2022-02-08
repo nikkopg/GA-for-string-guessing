@@ -77,6 +77,7 @@ class GeneticAlgorithm:
             population = self.regeneration(mutants, population)
             best_gen = self.create_parents(population)[0]
             generation += 1
+            print('[INFO]: Searching...')
             print(f'Target\t\t: {self.target_text}')
             print(f'Solution\t: {best_gen}')
             print(f'Generation\t: {generation}')

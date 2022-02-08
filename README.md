@@ -1,6 +1,6 @@
 # Genetic Algorithm for String Guessing with Python
 Simple implementation of Genetic Algorithm to guess given string target using Python.
-This implementation is referring to [this repo](https://github.com/kelasterbuka/matlab_advanced_GA) which uses Matlab.
+This implementation refers to [this repo](https://github.com/kelasterbuka/matlab_advanced_GA) which uses Matlab.
 This implementation has little modification on **Cross-Over** step, where the cross-over index are random while the previous implementation are using fixed index.
 
 ## Running Example:

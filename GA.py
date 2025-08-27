@@ -81,7 +81,7 @@ class GeneticAlgorithm:
             print(f'Target\t\t: {self.target_text}')
             print(f'Solution\t: {best_gen}')
             print(f'Generation\t: {generation}')
-            self.clearConsole()
+            self.clear_console()
             if best_gen == self.target_text:
                 isLooping = False
         return best_gen, generation
@@ -92,3 +92,4 @@ class GeneticAlgorithm:
             command = 'cls'
 
         os.system(command)
+

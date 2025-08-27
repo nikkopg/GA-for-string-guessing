@@ -66,7 +66,7 @@ class GeneticAlgorithm:
             population[i] = individual
         return population
 
-    def runGA(self, population_size, mutation_rate):
+    def run(self, population_size, mutation_rate):
         population = self.create_population(population_size)
         generation = 0
         isLooping = True
@@ -86,8 +86,9 @@ class GeneticAlgorithm:
                 isLooping = False
         return best_gen, generation
 
-    def clearConsole(self):
+    def clear_console(self):
         command = 'clear'
         if os.name in ('nt', 'dos'):
             command = 'cls'
+
         os.system(command)
